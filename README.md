@@ -9,6 +9,7 @@ This was developed against `draft-ietf-oauth-json-web-token-08`. It makes use of
 
 ## Fork Changes
 
+This package is a further fork that changes the package to depend on github repo dazoe/ed25519 instead of it's NPM package, which is outdated and does not support Node14.
 This package is a fork of [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) with two major changes:
 
 #### `verify()` must always be called with a specific algorithm name.
